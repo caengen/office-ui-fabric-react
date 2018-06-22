@@ -64,7 +64,7 @@ export interface IChoiceGroupOption extends React.HTMLAttributes<HTMLElement | H
   /**
    * A required key to uniquely identify the option.
    */
-  key: string;
+  key: string | number;
 
   /**
    * The text string for the option.
